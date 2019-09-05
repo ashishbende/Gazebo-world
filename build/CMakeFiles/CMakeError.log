@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/mugen/Lab/Gazebo-world/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mugen/Lab/Robotics/Gazebo-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_db45e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_db45e.dir/build.make CMakeFiles/cmTC_db45e.dir/build
-make[1]: Entering directory '/home/mugen/Lab/Gazebo-world/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_db45e.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_db45e.dir/CheckSymbolExists.c.o   -c /home/mugen/Lab/Gazebo-world/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_db45e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db45e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_db45e.dir/CheckSymbolExists.c.o  -o cmTC_db45e -rdynamic 
-CMakeFiles/cmTC_db45e.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_18c7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18c7a.dir/build.make CMakeFiles/cmTC_18c7a.dir/build
+make[1]: Entering directory '/home/mugen/Lab/Robotics/Gazebo-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18c7a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_18c7a.dir/CheckSymbolExists.c.o   -c /home/mugen/Lab/Robotics/Gazebo-world/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_18c7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18c7a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_18c7a.dir/CheckSymbolExists.c.o  -o cmTC_18c7a 
+CMakeFiles/cmTC_18c7a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_db45e.dir/build.make:97: recipe for target 'cmTC_db45e' failed
-make[1]: *** [cmTC_db45e] Error 1
-make[1]: Leaving directory '/home/mugen/Lab/Gazebo-world/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_db45e/fast' failed
-make: *** [cmTC_db45e/fast] Error 2
+CMakeFiles/cmTC_18c7a.dir/build.make:97: recipe for target 'cmTC_18c7a' failed
+make[1]: *** [cmTC_18c7a] Error 1
+make[1]: Leaving directory '/home/mugen/Lab/Robotics/Gazebo-world/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18c7a/fast' failed
+make: *** [cmTC_18c7a/fast] Error 2
 
-File /home/mugen/Lab/Gazebo-world/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/mugen/Lab/Robotics/Gazebo-world/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/mugen/Lab/Gazebo-world/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mugen/Lab/Robotics/Gazebo-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f64dc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f64dc.dir/build.make CMakeFiles/cmTC_f64dc.dir/build
-make[1]: Entering directory '/home/mugen/Lab/Gazebo-world/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f64dc.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f64dc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f64dc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f64dc.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f64dc.dir/CheckFunctionExists.c.o  -o cmTC_f64dc -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_b5b5d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5b5d.dir/build.make CMakeFiles/cmTC_b5b5d.dir/build
+make[1]: Entering directory '/home/mugen/Lab/Robotics/Gazebo-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5b5d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b5b5d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5b5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5b5d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b5b5d.dir/CheckFunctionExists.c.o  -o cmTC_b5b5d -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_f64dc.dir/build.make:97: recipe for target 'cmTC_f64dc' failed
-make[1]: *** [cmTC_f64dc] Error 1
-make[1]: Leaving directory '/home/mugen/Lab/Gazebo-world/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_f64dc/fast' failed
-make: *** [cmTC_f64dc/fast] Error 2
+CMakeFiles/cmTC_b5b5d.dir/build.make:97: recipe for target 'cmTC_b5b5d' failed
+make[1]: *** [cmTC_b5b5d] Error 1
+make[1]: Leaving directory '/home/mugen/Lab/Robotics/Gazebo-world/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5b5d/fast' failed
+make: *** [cmTC_b5b5d/fast] Error 2
 
 
