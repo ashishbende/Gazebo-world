@@ -981,7 +981,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='myrobot'>
+      <model name='r2d2'>
         <pose frame=''>-1.92281 1.58388 -0.006531 3.5e-05 -0.067647 0.000421</pose>
         <scale>1 1 1</scale>
         <link name='chassis'>
@@ -1003,7 +1003,7 @@
           <wrench>-0.025654 -0.012316 0.95895 0 -0 0</wrench>
         </link>
       </model>
-      <model name='myrobot_0'>
+      <model name='r2d2_0'>
         <pose frame=''>-2.30846 -0.353024 -0.006531 3.8e-05 -0.06766 0.001571</pose>
         <scale>1 1 1</scale>
         <link name='chassis'>
@@ -1046,7 +1046,7 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
-    <model name='myrobot'>
+    <model name='r2d2'>
       <link name='chassis'>
         <pose frame=''>0 -0 0.1 0 -0 0</pose>
         <inertial>
@@ -1488,7 +1488,7 @@
       <allow_auto_disable>1</allow_auto_disable>
       <pose frame=''>-1.91301 1.5837 0 0 -0 0</pose>
     </model>
-    <model name='myrobot_0'>
+    <model name='r2d2_0'>
       <link name='chassis'>
         <pose frame=''>0 -0 0.1 0 -0 0</pose>
         <inertial>
